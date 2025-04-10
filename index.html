@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify to YouTube Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Spotify to YouTube Converter</h1>
+      <p>Convert your Spotify playlists to YouTube links with no login required!</p>
+    </header>
+    
+    <main>
+      <div class="input-section">
+        <label for="playlist-url">Paste your Spotify playlist URL:</label>
+        <input type="text" id="playlist-url" placeholder="https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd">
+        <button id="convert-btn">Convert</button>
+      </div>
+      
+      <div class="loader" id="loader">
+        <div class="spinner"></div>
+        <p id="loading-status">Loading playlist...</p>
+      </div>
+      
+      <div class="results" id="results">
+        <h2 id="playlist-name"></h2>
+        <div class="progress-bar-container">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <p id="progress-text">0/0 tracks converted</p>
+        <div id="results-list"></div>
+        <button id="copy-all-btn" class="hidden">Copy All Links</button>
+        <button id="play-first-btn" class="hidden">Play First Video</button>
+      </div>
+    </main>
+    
+    <footer>
+      <p>Note: This tool uses the public Spotify Web API and YouTube search. No login required.</p>
+      <p>Made with ❤️ | <a href="" target="_blank">GitHub</a></p>
+    </footer>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

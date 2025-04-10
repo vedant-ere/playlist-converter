@@ -1,0 +1,16 @@
+# Node.js dependencies
+/server/node_modules/
+
+# Environment variables
+/server/.env
+
+# Logs
+*.log
+
+# OS / Editor junk files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Optional: if using VSCode
+.vscode/
