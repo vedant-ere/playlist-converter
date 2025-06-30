@@ -1104,7 +1104,6 @@ body {
 footer {
   margin-top: 80px;
   padding: 60px 0 30px;
-  background: var(--darker-bg);
   border-top: 1px solid var(--border-color);
 }
 
