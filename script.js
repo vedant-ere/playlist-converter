@@ -31,7 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const exportCsvBtn = document.getElementById('export-csv-btn');
     const exportJsonBtn = document.getElementById('export-json-btn');
     
-    const API_BASE_URL = 'http://localhost:3000/api';
+    // const API_BASE_URL = 'http://localhost:3000/api';
+    const API_BASE_URL = 'https://playlist-converter-3008.onrender.com/api';
+
     
     // Global variables to store playlist data
     let currentPlaylistData = null;
